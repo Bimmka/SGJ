@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a893834521391d4c9c497d2115b62b3, type: 3}
+  m_Name: Light Bullet
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1146099639690364546, guid: d2def61a112926d45afba488e3c8a480, type: 3}
+  coolingTime: 2
+  isStunGun: 1
+  maxLoadTime: 4
+  secondStageLoadTime: 2
+  thirdStageLoadTime: 3
+  fourthStageLoadTime: 4
+  firstStageDamage: 0
+  secondStageDamage: 0
+  thirdStageDamage: 0
+  firstStageSlow: 0.25
+  secondStageSlow: 0.5
+  thirdStageStunTime: 1.5
